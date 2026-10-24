@@ -1,0 +1,12 @@
+{
+  "name": "ai-interview-platform-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node AI-Interview-Preparation-Platform/backend/server.js",
+    "backend": "npm --prefix AI-Interview-Preparation-Platform/backend start",
+    "frontend": "npm --prefix AI-Interview-Preparation-Platform/frontend run dev",
+    "build": "npm --prefix AI-Interview-Preparation-Platform/frontend run build",
+    "test": "node AI-Interview-Preparation-Platform/backend/test_integration.js"
+  }
+}

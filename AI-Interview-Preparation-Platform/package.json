@@ -1,0 +1,24 @@
+{
+  "name": "ai-interview-preparation-platform",
+  "version": "1.0.0",
+  "description": "AI Interview Preparation Platform for college students and freshers",
+  "private": true,
+  "scripts": {
+    "start": "node backend/server.js",
+    "backend": "npm --prefix backend start",
+    "frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "test": "node backend/test_integration.js"
+  },
+  "keywords": [
+    "ai-interview",
+    "gemini-ai",
+    "placement-preparation",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Antigravity",
+  "license": "MIT"
+}
